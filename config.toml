@@ -1,0 +1,90 @@
+baseURL = "https://stranger.pizza/"
+defaultContentLanguage = "en"
+title = "Stranger Pizza"
+theme = "LoveIt"
+
+[languages]
+  [languages.en]
+    weight = 1
+    title = "StrangerPizza"
+    languageCode = "en"
+    languageName = "English"
+    [[languages.en.menu.main]]
+      weight = 1
+      identifier = "posts"
+      pre = ""
+      post = ""
+      name = "Posts"
+      url = "/posts/"
+      title = ""
+    [[languages.en.menu.main]]
+      weight = 2
+      identifier = "tags"
+      pre = ""
+      post = ""
+      name = "Tags"
+      url = "/tags/"
+      title = ""
+    [[languages.en.menu.main]]
+      weight = 3
+      identifier = "categories"
+      pre = ""
+      post = ""
+      name = "Categories"
+      url = "/categories/"
+      title = ""
+  [languages.it]
+    weight = 1
+    title = "StrangerPizza"
+    languageCode = "it"
+    languageName = "Italiano"
+    [[languages.en.menu.main]]
+      weight = 1
+      identifier = "posts"
+      pre = ""
+      post = ""
+      name = "Posts"
+      url = "/posts/"
+      title = ""
+    [[languages.en.menu.main]]
+      weight = 2
+      identifier = "tags"
+      pre = ""
+      post = ""
+      name = "Tags"
+      url = "/tags/"
+      title = ""
+    [[languages.en.menu.main]]
+      weight = 3
+      identifier = "categories"
+      pre = ""
+      post = ""
+      name = "Categorie"
+      url = "/categories/"
+      title = ""
+
+[params]
+  defaultTheme = "dark"
+  dateFormat = "2006-01-02"
+  title = "Stranger Pizza"
+  logo = ""
+
+  [params.header]
+    desktopMode = "auto"
+    mobileMode = "auto"
+    name = "Stranger Pizza"
+
+  [params.social]
+    [params.social.GitHub]
+      weight = 0
+      id = "stranger-pizza"
+      prefix = "https://github.com/"
+      title = "GitHub"
+    [params.social.Twitter]
+      weight = 1
+      id = "Stranger_Pizza_"
+      prefix = "https://www.twitter.com/"
+      title = "Twitter"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
